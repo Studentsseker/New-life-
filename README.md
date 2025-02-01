@@ -1,54 +1,110 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Self-Reflection and Relationships</title>
+  <meta name="description" content="A landing page for women over 40 seeking balance, growth, and a deeper understanding of themselves and their relationships.">
+  <meta name="keywords" content="self-reflection, personal growth, emotional well-being, relationships, women over 40">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, h3 {
+      color: #444;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    .testimonial {
+      background: #f1f1f1;
+      padding: 15px;
+      border-left: 5px solid #007BFF;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Self-Reflection and Relationships: Understanding Personal Growth and Emotional Well-Being</h1>
+    <p><strong>A landing page for women over 40 seeking balance, growth, and a deeper understanding of themselves and their relationships.</strong></p>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <h2>It’s Time to Pause, Reflect, and Grow</h2>
+    <p>In a life filled with complex challenges—at work, at home, or in personal relationships—it’s easy to lose touch with ourselves. This landing page is designed to give you a space for self-reflection, a better understanding of your emotions, and tools for personal growth.</p>
 
-# GitHub Pages
+    <h2>What You’ll Find Here</h2>
+    <ul>
+      <li><strong>Anonymous Survey:</strong> An opportunity to share your thoughts and feelings safely and anonymously.</li>
+      <li><strong>Personal Insights:</strong> Gain insights into how the current period is affecting your relationships and emotional balance.</li>
+      <li><strong>Growth Resources:</strong> Recommendations and tools to help you navigate challenges and grow personally and emotionally.</li>
+    </ul>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <h2>Why Participate?</h2>
+    <p>Every response matters! The information you provide will help us better understand the needs and challenges of women like you, and develop tools to create balance and growth in personal and professional lives.</p>
 
-</header>
+    <a href="https://forms.office.com/your-form-link" class="cta-button" target="_blank">Start Now</a>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+    <h2>What Other Women Are Saying</h2>
+    <div class="testimonial">
+      <p>“This survey gave me an opportunity to better understand myself and my relationships. I felt less alone in the challenges I face.”</p>
+      <p><strong>— Dana, 45</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>“I received practical tools that made my daily life easier. Highly recommended!”</p>
+      <p><strong>— Michal, 52</strong></p>
+    </div>
 
-## Step 1: Enable GitHub Pages
+    <h2>About Us</h2>
+    <p>We are a platform dedicated to supporting women over 40 on their journey to personal and emotional growth. Through surveys, research, and dedicated resources, we help women find balance and better understand themselves and their relationships.</p>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+    <h2>Have Questions?</h2>
+    <p>We’re here to help! Reach out to us at <a href="mailto:support@selfreflection.com">support@selfreflection.com</a> or call us at 123-456-7890.</p>
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+    <a href="https://forms.office.com/your-form-link" class="cta-button" target="_blank">Join Us Today</a>
 
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+    <footer>
+      <p>Follow us on social media:</p>
+      <p>
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">LinkedIn</a>
+      </p>
+      <p>© 2025 Self-Reflection and Relationships. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
