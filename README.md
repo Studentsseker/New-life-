@@ -1,100 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Self-Reflection and Relationships</title>
-  <meta name="description" content="A landing page for women over 40 seeking balance, growth, and a deeper understanding of themselves and their relationships.">
-  <meta name="keywords" content="self-reflection, personal growth, emotional well-being, relationships, women over 40">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2, h3 {
-      color: #444;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: #fff;
-      border-radius: 5px;
-      text-align: center;
-      margin: 20px 0;
-    }
-    .cta-button:hover {
-      background-color: #0056b3;
-    }
-    .testimonial {
-      background: #f1f1f1;
-      padding: 15px;
-      border-left: 5px solid #007BFF;
-      margin: 20px 0;
-    }
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Self-Reflection and Relationships: Understanding Personal Growth and Emotional Well-Being</h1>
-    <p><strong>A landing page for women over 40 seeking balance, growth, and a deeper understanding of themselves and their relationships.</strong></p>
 
-    <h2>It’s Time to Pause, Reflect, and Grow</h2>
-    <p>In a life filled with complex challenges—at work, at home, or in personal relationships—it’s easy to lose touch with ourselves. This landing page is designed to give you a space for self-reflection, a better understanding of your emotions, and tools for personal growth.</p>
 
-    <h2>What You’ll Find Here</h2>
-    <ul>
-      <li><strong>Anonymous Survey:</strong> An opportunity to share your thoughts and feelings safely and anonymously.</li>
-      <li><strong>Personal Insights:</strong> Gain insights into how the current period is affecting your relationships and emotional balance.</li>
-      <li><strong>Growth Resources:</strong> Recommendations and tools to help you navigate challenges and grow personally and emotionally.</li>
-    </ul>
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-    <h2>Why Participate?</h2>
-    <p>Every response matters! The information you provide will help us better understand the needs and challenges of women like you, and develop tools to create balance and growth in personal and professional lives.</p>
+## Step 2: Configure your site
 
-    <a href="https://forms.office.com/your-form-link" class="cta-button" target="_blank">Start Now</a>
+_You turned on GitHub Pages! :tada:_
 
-    <h2>What Other Women Are Saying</h2>
-    <div class="testimonial">
-      <p>“This survey gave me an opportunity to better understand myself and my relationships. I felt less alone in the challenges I face.”</p>
-      <p><strong>— Dana, 45</strong></p>
-    </div>
-    <div class="testimonial">
-      <p>“I received practical tools that made my daily life easier. Highly recommended!”</p>
-      <p><strong>— Michal, 52</strong></p>
-    </div>
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-    <h2>About Us</h2>
-    <p>We are a platform dedicated to supporting women over 40 on their journey to personal and emotional growth. Through surveys, research, and dedicated resources, we help women find balance and better understand themselves and their relationships.</p>
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
 
-    <h2>Have Questions?</h2>
-    <p>We’re here to help! Reach out to us at <a href="mailto:support@selfreflection.com">support@selfreflection.com</a> or call us at 123-456-7890.</p>
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
-    <a href="https://forms.office.com/your-form-link" class="cta-button" target="_blank">Join Us Today</a>
+### :keyboard: Activity: Configure your site
+
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
     <footer>
       <p>Follow us on social media:</p>
@@ -105,6 +39,3 @@
       </p>
       <p>© 2025 Self-Reflection and Relationships. All rights reserved.</p>
     </footer>
-  </div>
-</body>
-</html>
